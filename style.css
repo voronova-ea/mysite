@@ -1,0 +1,87 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+p, h1, h2, .knowledge {
+    font-family: 'Arial',Arial,sans-serif;
+    padding-left: 10px;
+}
+
+.header {
+    display: flex;
+    background-color: #16223a;
+    align-items: center;
+}
+
+nav {
+    margin-left: auto;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+ul li {
+    margin-right: 25px;
+}
+
+li a {
+    text-decoration: none;
+    color: #fdfdfd;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+.aboutMe {
+    background-color: #16223a;
+    background-position: left center;
+    background-image: url('img/me.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 850px;
+}
+
+.greeting {
+    margin-top: 0;
+    padding-top: 2em
+}
+
+p {
+    display: block;
+    width: 50%;
+    font-size: 1.2rem;
+}
+
+.knowledge {
+    display: block;
+    background-color: #fdfdfd;
+    width: 45%;
+    opacity: 0.6;
+}
+
+details {
+    font-size: 1.2rem;
+}
+
+.p_long {
+    display: block;
+    width: 100%;
+}
+
+.footer {
+    background-color: #16223a;
+    flex: 0 0 auto;
+    color: #fdfdfd;
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 18px;
+    text-align: center;
+}
+
